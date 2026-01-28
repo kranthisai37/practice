@@ -1,7 +1,20 @@
 ''' write a program to find the reverse of given no'''
-num=int(input("enter a no:"))
-rev=0
-while num>0:
-    rev=rev*10+num%10
-    num//=10
-print("rev num is:",rev)
+
+
+def reverse(num):
+    rev=0
+    while num>0:
+        rev=rev*10+num%10
+        num//=10
+    return rev
+
+
+def isPalindrome(num):
+   return num==reverse(num)
+
+print(reverse(121))
+print(isPalindrome((121)))
+
+print(reverse(123))
+print(isPalindrome((123)))
+
