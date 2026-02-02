@@ -1,7 +1,15 @@
 good Afternoon
 
+<<<<<<< Updated upstream
 story 20
 x=100
 y=200
 z=x+y
 print(z)
+=======
+story 19
+a=10
+b=20
+c=a+b
+print(c)
+>>>>>>> Stashed changes
